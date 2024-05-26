@@ -1,0 +1,788 @@
+<html><body><samp><pre>
+<!@TC:1702488834>
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\lscc\iCEcube2.2020.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: ELC-CND-BR-08
+
+# Wed Dec 13 19:33:54 2023
+
+#Implementation: new_sap_Implmnt
+
+<a name=compilerReport1></a>Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016</a>
+@N: : <!@TM:1702488834> | Running in 64-bit mode 
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+<a name=compilerReport2></a>Synopsys Verilog Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016</a>
+@N: : <!@TM:1702488834> | Running in 64-bit mode 
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v" (library work)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\Users\CND\Desktop\new_sap\test.v" (library work)
+@I:"C:\Users\CND\Desktop\new_sap\test.v":"C:\Users\CND\Desktop\new_sap\top_mod.v" (library work)
+@I:"C:\Users\CND\Desktop\new_sap\top_mod.v":"C:\Users\CND\Desktop\new_sap\tristatebuff_8bit.v" (library work)
+@I:"C:\Users\CND\Desktop\new_sap\top_mod.v":"C:\Users\CND\Desktop\new_sap\tristatebuff_4bit.v" (library work)
+@I:"C:\Users\CND\Desktop\new_sap\top_mod.v":"C:\Users\CND\Desktop\new_sap\control_unit.v" (library work)
+@I:"C:\Users\CND\Desktop\new_sap\top_mod.v":"C:\Users\CND\Desktop\new_sap\opcode_decoder.v" (library work)
+@I:"C:\Users\CND\Desktop\new_sap\top_mod.v":"C:\Users\CND\Desktop\new_sap\program_counter.v" (library work)
+@I:"C:\Users\CND\Desktop\new_sap\top_mod.v":"C:\Users\CND\Desktop\new_sap\t_state_counter.v" (library work)
+@I:"C:\Users\CND\Desktop\new_sap\top_mod.v":"C:\Users\CND\Desktop\new_sap\demux.v" (library work)
+@I:"C:\Users\CND\Desktop\new_sap\top_mod.v":"C:\Users\CND\Desktop\new_sap\register_4bit.v" (library work)
+@I:"C:\Users\CND\Desktop\new_sap\top_mod.v":"C:\Users\CND\Desktop\new_sap\register_8bit.v" (library work)
+@I:"C:\Users\CND\Desktop\new_sap\top_mod.v":"C:\Users\CND\Desktop\new_sap\ALU.v" (library work)
+@I:"C:\Users\CND\Desktop\new_sap\top_mod.v":"C:\Users\CND\Desktop\new_sap\memory.v" (library work)
+@I:"C:\Users\CND\Desktop\new_sap\top_mod.v":"C:\Users\CND\Desktop\new_sap\dFlipflop.v" (library work)
+Verilog syntax check successful!
+File C:\Users\CND\Desktop\new_sap\test.v changed - recompiling
+Selecting top level module test
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\CND\Desktop\new_sap\opcode_decoder.v:1:7:1:21:@N:CG364:@XP_MSG">opcode_decoder.v(1)</a><!@TM:1702488834> | Synthesizing module opcode_decoder in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\CND\Desktop\new_sap\t_state_counter.v:2:7:2:20:@N:CG364:@XP_MSG">t_state_counter.v(2)</a><!@TM:1702488834> | Synthesizing module state_counter in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\CND\Desktop\new_sap\control_unit.v:1:7:1:24:@N:CG364:@XP_MSG">control_unit.v(1)</a><!@TM:1702488834> | Synthesizing module control_sequencer in library work.
+
+<font color=#A52A2A>@W:<a href="@W:CG360:@XP_HELP">CG360</a> : <a href="C:\Users\CND\Desktop\new_sap\control_unit.v:25:9:25:17:@W:CG360:@XP_MSG">control_unit.v(25)</a><!@TM:1702488834> | Removing wire CLR_Flag, as there is no assignment to it.</font>
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\CND\Desktop\new_sap\tristatebuff_4bit.v:1:7:1:24:@N:CG364:@XP_MSG">tristatebuff_4bit.v(1)</a><!@TM:1702488834> | Synthesizing module tristatebuff_4bit in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\CND\Desktop\new_sap\program_counter.v:1:7:1:22:@N:CG364:@XP_MSG">program_counter.v(1)</a><!@TM:1702488834> | Synthesizing module program_counter in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\CND\Desktop\new_sap\dFlipflop.v:2:7:2:16:@N:CG364:@XP_MSG">dFlipflop.v(2)</a><!@TM:1702488834> | Synthesizing module dFlipflop in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\CND\Desktop\new_sap\register_4bit.v:1:7:1:15:@N:CG364:@XP_MSG">register_4bit.v(1)</a><!@TM:1702488834> | Synthesizing module reg_4bit in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\CND\Desktop\new_sap\memory.v:1:7:1:10:@N:CG364:@XP_MSG">memory.v(1)</a><!@TM:1702488834> | Synthesizing module rom in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\CND\Desktop\new_sap\register_8bit.v:1:7:1:15:@N:CG364:@XP_MSG">register_8bit.v(1)</a><!@TM:1702488834> | Synthesizing module reg_8bit in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\CND\Desktop\new_sap\tristatebuff_8bit.v:2:7:2:24:@N:CG364:@XP_MSG">tristatebuff_8bit.v(2)</a><!@TM:1702488834> | Synthesizing module tristatebuff_8bit in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\CND\Desktop\new_sap\ALU.v:1:7:1:10:@N:CG364:@XP_MSG">ALU.v(1)</a><!@TM:1702488834> | Synthesizing module alu in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\CND\Desktop\new_sap\top_mod.v:14:7:14:11:@N:CG364:@XP_MSG">top_mod.v(14)</a><!@TM:1702488834> | Synthesizing module main in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\CND\Desktop\new_sap\test.v:3:7:3:11:@N:CG364:@XP_MSG">test.v(3)</a><!@TM:1702488834> | Synthesizing module test in library work.
+
+<font color=#A52A2A>@W:<a href="@W:CG532:@XP_HELP">CG532</a> : <a href="C:\Users\CND\Desktop\new_sap\test.v:14:0:14:7:@W:CG532:@XP_MSG">test.v(14)</a><!@TM:1702488834> | Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.</font>
+<font color=#A52A2A>@W:<a href="@W:CG294:@XP_HELP">CG294</a> : <a href="C:\Users\CND\Desktop\new_sap\test.v:19:4:19:10:@W:CG294:@XP_MSG">test.v(19)</a><!@TM:1702488834> | always block should contain at least one event control</font>
+<font color=#A52A2A>@W:<a href="@W:CG532:@XP_HELP">CG532</a> : <a href="C:\Users\CND\Desktop\new_sap\test.v:25:0:25:7:@W:CG532:@XP_MSG">test.v(25)</a><!@TM:1702488834> | Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.</font>
+<font color=#A52A2A>@W:<a href="@W:CG133:@XP_HELP">CG133</a> : <a href="C:\Users\CND\Desktop\new_sap\test.v:12:9:12:12:@W:CG133:@XP_MSG">test.v(12)</a><!@TM:1702488834> | Object clr is declared but not assigned. Either assign a value or remove the declaration.</font>
+<font color=#A52A2A>@W:<a href="@W:FX105:@XP_HELP">FX105</a> : <a href="C:\Users\CND\Desktop\new_sap\test.v:21:19:21:24:@W:FX105:@XP_MSG">test.v(21)</a><!@TM:1702488834> | Found combinational loop at clk1</font>
+@A:<a href="@A:CL153:@XP_HELP">CL153</a> : <a href="C:\Users\CND\Desktop\new_sap\test.v:12:9:12:12:@A:CL153:@XP_MSG">test.v(12)</a><!@TM:1702488834> | *Unassigned bits of clr are referenced and tied to 0 -- simulation mismatch possible.
+@N:<a href="@N:CL201:@XP_HELP">CL201</a> : <a href="C:\Users\CND\Desktop\new_sap\t_state_counter.v:6:4:6:10:@N:CL201:@XP_MSG">t_state_counter.v(6)</a><!@TM:1702488834> | Trying to extract state machine for register T.
+Extracted state machine for register T
+State machine has 5 reachable states with original encodings of:
+   00001
+   00010
+   00100
+   01000
+   10000
+<font color=#A52A2A>@W:<a href="@W:CL249:@XP_HELP">CL249</a> : <a href="C:\Users\CND\Desktop\new_sap\t_state_counter.v:6:4:6:10:@W:CL249:@XP_MSG">t_state_counter.v(6)</a><!@TM:1702488834> | Initial value is not supported on state machine T</font>
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 73MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Dec 13 19:33:54 2023
+
+###########################################################]
+<a name=compilerReport3></a>Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016</a>
+@N: : <!@TM:1702488834> | Running in 64-bit mode 
+@N:<a href="@N:NF107:@XP_HELP">NF107</a> : <a href="C:\Users\CND\Desktop\new_sap\test.v:3:7:3:11:@N:NF107:@XP_MSG">test.v(3)</a><!@TM:1702488834> | Selected library: work cell: test view verilog as top level
+@N:<a href="@N:NF107:@XP_HELP">NF107</a> : <a href="C:\Users\CND\Desktop\new_sap\test.v:3:7:3:11:@N:NF107:@XP_MSG">test.v(3)</a><!@TM:1702488834> | Selected library: work cell: test view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Dec 13 19:33:54 2023
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Dec 13 19:33:54 2023
+
+###########################################################]
+<a name=compilerReport4></a>Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016</a>
+@N: : <!@TM:1702488835> | Running in 64-bit mode 
+File C:\Users\CND\Desktop\new_sap\new_sap\new_sap_Implmnt\synwork\new_sap_comp.srs changed - recompiling
+@N:<a href="@N:NF107:@XP_HELP">NF107</a> : <a href="C:\Users\CND\Desktop\new_sap\test.v:3:7:3:11:@N:NF107:@XP_MSG">test.v(3)</a><!@TM:1702488835> | Selected library: work cell: test view verilog as top level
+@N:<a href="@N:NF107:@XP_HELP">NF107</a> : <a href="C:\Users\CND\Desktop\new_sap\test.v:3:7:3:11:@N:NF107:@XP_MSG">test.v(3)</a><!@TM:1702488835> | Selected library: work cell: test view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Dec 13 19:33:55 2023
+
+###########################################################]
+Pre-mapping Report
+
+# Wed Dec 13 19:33:55 2023
+
+<a name=mapperReport5></a>Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39</a>
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@A:<a href="@A:MF827:@XP_HELP">MF827</a> : <!@TM:1702488835> | No constraint file specified. 
+Linked File: <a href="C:\Users\CND\Desktop\new_sap\new_sap\new_sap_Implmnt\new_sap_scck.rpt:@XP_FILE">new_sap_scck.rpt</a>
+Printing clock  summary report in "C:\Users\CND\Desktop\new_sap\new_sap\new_sap_Implmnt\new_sap_scck.rpt" file 
+@N:<a href="@N:MF248:@XP_HELP">MF248</a> : <!@TM:1702488835> | Running in 64-bit mode. 
+@N:<a href="@N:MF666:@XP_HELP">MF666</a> : <!@TM:1702488835> | Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.) 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 102MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 104MB)
+
+@N:<a href="@N:BN115:@XP_HELP">BN115</a> : <a href="c:\users\cnd\desktop\new_sap\register_8bit.v:9:14:9:17:@N:BN115:@XP_MSG">register_8bit.v(9)</a><!@TM:1702488835> | Removing instance ff2 (in view: work.reg_8bit_0(verilog)) of type view:work.dFlipflop_11_23(verilog) because it does not drive other instances.
+@N:<a href="@N:BN115:@XP_HELP">BN115</a> : <a href="c:\users\cnd\desktop\new_sap\register_8bit.v:13:14:13:17:@N:BN115:@XP_MSG">register_8bit.v(13)</a><!@TM:1702488835> | Removing instance ff6 (in view: work.reg_8bit_0(verilog)) of type view:work.dFlipflop_11_19(verilog) because it does not drive other instances.
+@N:<a href="@N:BN115:@XP_HELP">BN115</a> : <a href="c:\users\cnd\desktop\new_sap\register_8bit.v:14:14:14:17:@N:BN115:@XP_MSG">register_8bit.v(14)</a><!@TM:1702488835> | Removing instance ff7 (in view: work.reg_8bit_0(verilog)) of type view:work.dFlipflop_11_18(verilog) because it does not drive other instances.
+@N:<a href="@N:BN115:@XP_HELP">BN115</a> : <a href="c:\users\cnd\desktop\new_sap\register_8bit.v:15:14:15:17:@N:BN115:@XP_MSG">register_8bit.v(15)</a><!@TM:1702488835> | Removing instance ff8 (in view: work.reg_8bit_0(verilog)) of type view:work.dFlipflop_11_17(verilog) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\users\cnd\desktop\new_sap\dflipflop.v:14:4:14:10:@N:BN362:@XP_MSG">dflipflop.v(14)</a><!@TM:1702488835> | Removing sequential instance q (in view: work.dFlipflop_11_23(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\users\cnd\desktop\new_sap\dflipflop.v:14:4:14:10:@N:BN362:@XP_MSG">dflipflop.v(14)</a><!@TM:1702488835> | Removing sequential instance q (in view: work.dFlipflop_11_19(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\users\cnd\desktop\new_sap\dflipflop.v:14:4:14:10:@N:BN362:@XP_MSG">dflipflop.v(14)</a><!@TM:1702488835> | Removing sequential instance q (in view: work.dFlipflop_11_18(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\users\cnd\desktop\new_sap\dflipflop.v:14:4:14:10:@N:BN362:@XP_MSG">dflipflop.v(14)</a><!@TM:1702488835> | Removing sequential instance q (in view: work.dFlipflop_11_17(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+Warning: Found 1 combinational loops!
+<font color=#A52A2A>@W:<a href="@W:BN137:@XP_HELP">BN137</a> : <a href="c:\users\cnd\desktop\new_sap\test.v:21:19:21:24:@W:BN137:@XP_MSG">test.v(21)</a><!@TM:1702488835> | Found combinational loop during mapping at net clk1</font>
+1) instance clk1 (in view: work.test(verilog)), output net clk1 (in view: work.test(verilog))
+    net        clk1
+    input  pin clk1/I[0]
+    instance   clk1 (cell inv)
+    output pin clk1/OUT[0]
+    net        uut.clk
+End of loops
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=16  set on top level netlist test
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+
+<a name=mapperReport6></a>Clock Summary</a>
+*****************
+
+Start                             Requested     Requested     Clock        Clock                     Clock
+Clock                             Frequency     Period        Type         Group                     Load 
+----------------------------------------------------------------------------------------------------------
+main|buf_clk_1_inferred_clock     4.0 MHz       247.972       inferred     Autoconstr_clkgroup_0     45   
+==========================================================================================================
+
+<font color=#A52A2A>@W:<a href="@W:MT529:@XP_HELP">MT529</a> : <a href="c:\users\cnd\desktop\new_sap\t_state_counter.v:6:4:6:10:@W:MT529:@XP_MSG">t_state_counter.v(6)</a><!@TM:1702488835> | Found inferred clock main|buf_clk_1_inferred_clock which controls 45 sequential elements including uut.seq.counter.T_1[4:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </font>
+
+Finished Pre Mapping Phase.
+<font color=#A52A2A>@W:<a href="@W:MO162:@XP_HELP">MO162</a> : <a href="c:\users\cnd\desktop\new_sap\test.v:3:7:3:11:@W:MO162:@XP_MSG">test.v(3)</a><!@TM:1702488835> | Net clk1 (in view: work.test(verilog)) resulted in a combinational loop around inverter clk1 (in view: work.test(verilog)) </font>
+<font color=#A52A2A>@W:<a href="@W:MO162:@XP_HELP">MO162</a> : <a href="c:\users\cnd\desktop\new_sap\test.v:3:7:3:11:@W:MO162:@XP_MSG">test.v(3)</a><!@TM:1702488835> | Net clk1 (in view: work.test(verilog)) resulted in a combinational loop around inverter clk1 (in view: work.test(verilog)) </font>
+@N:<a href="@N:BN225:@XP_HELP">BN225</a> : <!@TM:1702488835> | Writing default property annotation file C:\Users\CND\Desktop\new_sap\new_sap\new_sap_Implmnt\new_sap.sap. 
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+Encoding state machine T_1[4:0] (in view: work.state_counter(verilog))
+original code -> new code
+   00001 -> 00001
+   00010 -> 00010
+   00100 -> 00100
+   01000 -> 01000
+   10000 -> 10000
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 48MB peak: 133MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Dec 13 19:33:55 2023
+
+###########################################################]
+Map & Optimize Report
+
+# Wed Dec 13 19:33:55 2023
+
+<a name=mapperReport7></a>Synopsys Lattice Technology Mapper, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39</a>
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N:<a href="@N:MF248:@XP_HELP">MF248</a> : <!@TM:1702488837> | Running in 64-bit mode. 
+@N:<a href="@N:MF666:@XP_HELP">MF666</a> : <!@TM:1702488837> | Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.) 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 103MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+Warning: Found 1 combinational loops!
+<font color=#A52A2A>@W:<a href="@W:BN137:@XP_HELP">BN137</a> : <a href="c:\users\cnd\desktop\new_sap\test.v:21:19:21:24:@W:BN137:@XP_MSG">test.v(21)</a><!@TM:1702488837> | Found combinational loop during mapping at net clk1</font>
+1) instance clk1 (in view: work.test(verilog)), output net clk1 (in view: work.test(verilog))
+    net        clk1
+    input  pin clk1/I[0]
+    instance   clk1 (cell inv)
+    output pin clk1/OUT[0]
+    net        uut.clk
+End of loops
+@N:<a href="@N:MT206:@XP_HELP">MT206</a> : <!@TM:1702488837> | Auto Constrain mode is enabled 
+<font color=#A52A2A>@W:<a href="@W:FA239:@XP_HELP">FA239</a> : <a href="c:\users\cnd\desktop\new_sap\memory.v:14:12:14:16:@W:FA239:@XP_MSG">memory.v(14)</a><!@TM:1702488837> | ROM data_2[7:0] (in view: work.rom(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</font>
+<font color=#A52A2A>@W:<a href="@W:FA239:@XP_HELP">FA239</a> : <a href="c:\users\cnd\desktop\new_sap\memory.v:14:12:14:16:@W:FA239:@XP_MSG">memory.v(14)</a><!@TM:1702488837> | ROM data_2[7:0] (in view: work.rom(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</font>
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\users\cnd\desktop\new_sap\memory.v:14:12:14:16:@N:MO106:@XP_MSG">memory.v(14)</a><!@TM:1702488837> | Found ROM .delname. (in view: work.rom(verilog)) with 16 words by 8 bits.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+Encoding state machine T_1[4:0] (in view: work.state_counter(verilog))
+original code -> new code
+   00001 -> 00001
+   00010 -> 00010
+   00100 -> 00100
+   01000 -> 01000
+   10000 -> 10000
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 133MB)
+
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\users\cnd\desktop\new_sap\dflipflop.v:14:4:14:10:@N:BN362:@XP_MSG">dflipflop.v(14)</a><!@TM:1702488837> | Removing sequential instance uut.IR.ff7.q (in view: work.test(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\users\cnd\desktop\new_sap\dflipflop.v:14:4:14:10:@N:BN362:@XP_MSG">dflipflop.v(14)</a><!@TM:1702488837> | Removing sequential instance uut.IR.ff5.q (in view: work.test(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\users\cnd\desktop\new_sap\t_state_counter.v:6:4:6:10:@N:BN362:@XP_MSG">t_state_counter.v(6)</a><!@TM:1702488837> | Removing sequential instance uut.seq.counter.T_1[2] (in view: work.test(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\users\cnd\desktop\new_sap\dflipflop.v:14:4:14:10:@N:BN362:@XP_MSG">dflipflop.v(14)</a><!@TM:1702488837> | Removing sequential instance uut.IR.ff6.q (in view: work.test(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\users\cnd\desktop\new_sap\dflipflop.v:14:4:14:10:@N:BN362:@XP_MSG">dflipflop.v(14)</a><!@TM:1702488837> | Removing sequential instance uut.IR.ff8.q (in view: work.test(verilog)) because it does not drive other instances.
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 134MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 134MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 134MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 134MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 134MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 137MB peak: 153MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -5.25ns		 155 /        49
+   2		0h:00m:00s		    -5.25ns		 155 /        49
+@N:<a href="@N:FX271:@XP_HELP">FX271</a> : <a href="c:\users\cnd\desktop\new_sap\dflipflop.v:14:4:14:10:@N:FX271:@XP_MSG">dflipflop.v(14)</a><!@TM:1702488837> | Replicating instance uut.IR.ff5.q_0 (in view: work.test(verilog)) with 19 loads 2 times to improve timing.
+@N:<a href="@N:FX271:@XP_HELP">FX271</a> : <a href="c:\users\cnd\desktop\new_sap\dflipflop.v:14:4:14:10:@N:FX271:@XP_MSG">dflipflop.v(14)</a><!@TM:1702488837> | Replicating instance uut.IR.ff8.q_0 (in view: work.test(verilog)) with 19 loads 1 time to improve timing.
+@N:<a href="@N:FX271:@XP_HELP">FX271</a> : <a href="c:\users\cnd\desktop\new_sap\t_state_counter.v:6:4:6:10:@N:FX271:@XP_MSG">t_state_counter.v(6)</a><!@TM:1702488837> | Replicating instance uut.seq.counter.T[2] (in view: work.test(verilog)) with 20 loads 2 times to improve timing.
+@N:<a href="@N:FX271:@XP_HELP">FX271</a> : <a href="c:\users\cnd\desktop\new_sap\dflipflop.v:14:4:14:10:@N:FX271:@XP_MSG">dflipflop.v(14)</a><!@TM:1702488837> | Replicating instance uut.IR.ff7.q_ret_1 (in view: work.test(verilog)) with 10 loads 1 time to improve timing.
+@N:<a href="@N:FX271:@XP_HELP">FX271</a> : <a href="c:\users\cnd\desktop\new_sap\dflipflop.v:14:4:14:10:@N:FX271:@XP_MSG">dflipflop.v(14)</a><!@TM:1702488837> | Replicating instance uut.IR.ff6.q_ret_1 (in view: work.test(verilog)) with 8 loads 1 time to improve timing.
+@N:<a href="@N:FX271:@XP_HELP">FX271</a> : <a href="c:\users\cnd\desktop\new_sap\dflipflop.v:14:4:14:10:@N:FX271:@XP_MSG">dflipflop.v(14)</a><!@TM:1702488837> | Replicating instance uut.IR.ff6.q_0 (in view: work.test(verilog)) with 12 loads 1 time to improve timing.
+@N:<a href="@N:FX271:@XP_HELP">FX271</a> : <a href="c:\users\cnd\desktop\new_sap\dflipflop.v:14:4:14:10:@N:FX271:@XP_MSG">dflipflop.v(14)</a><!@TM:1702488837> | Replicating instance uut.IR.ff7.q_0 (in view: work.test(verilog)) with 12 loads 1 time to improve timing.
+@N:<a href="@N:FX271:@XP_HELP">FX271</a> : <a href="c:\users\cnd\desktop\new_sap\t_state_counter.v:6:4:6:10:@N:FX271:@XP_MSG">t_state_counter.v(6)</a><!@TM:1702488837> | Replicating instance uut.seq.counter.T_1[3] (in view: work.test(verilog)) with 12 loads 1 time to improve timing.
+@N:<a href="@N:FX271:@XP_HELP">FX271</a> : <a href="c:\users\cnd\desktop\new_sap\t_state_counter.v:6:4:6:10:@N:FX271:@XP_MSG">t_state_counter.v(6)</a><!@TM:1702488837> | Replicating instance uut.seq.counter.T_1[1] (in view: work.test(verilog)) with 22 loads 1 time to improve timing.
+@N:<a href="@N:FX271:@XP_HELP">FX271</a> : <a href="c:\users\cnd\desktop\new_sap\t_state_counter.v:6:4:6:10:@N:FX271:@XP_MSG">t_state_counter.v(6)</a><!@TM:1702488837> | Replicating instance uut.seq.counter.T_1[0] (in view: work.test(verilog)) with 9 loads 1 time to improve timing.
+Timing driven replication report
+Added 12 Registers via timing driven replication
+Added 2 LUTs via timing driven replication
+
+   3		0h:00m:00s		    -3.85ns		 200 /        61
+   4		0h:00m:00s		    -3.85ns		 202 /        61
+
+
+   5		0h:00m:00s		    -3.85ns		 209 /        61
+   6		0h:00m:00s		    -3.32ns		 210 /        61
+@N:<a href="@N:FX1017:@XP_HELP">FX1017</a> : <a href="c:\users\cnd\desktop\new_sap\test.v:34:5:34:8:@N:FX1017:@XP_MSG">test.v(34)</a><!@TM:1702488837> | SB_GB inserted on the net uut.buf_clk_1.
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 153MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 153MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+<a name=clockReport8></a>#### START OF CLOCK OPTIMIZATION REPORT #####[</a>
+
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 61 clock pin(s) of sequential element(s)
+0 instances converted, 61 sequential instances remain driven by gated/generated clocks
+
+============================================================= Gated/Generated Clocks =============================================================
+Clock Tree ID     Driving Element                        Drive Element Type     Fanout     Sample Instance               Explanation              
+--------------------------------------------------------------------------------------------------------------------------------------------------
+<a href="@|S:uut.buf_clk_1_inferred_clock_0_RNO@|E:uut.pc.program_counter[3]@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001  @XP_NAMES_BY_PROP">ClockId0001 </a>       uut.buf_clk_1_inferred_clock_0_RNO     SB_LUT4                61         uut.pc.program_counter[3]     No clocks found on inputs
+==================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 117MB peak: 153MB)
+
+Writing Analyst data base C:\Users\CND\Desktop\new_sap\new_sap\new_sap_Implmnt\synwork\new_sap_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 141MB peak: 153MB)
+
+Writing EDIF Netlist and constraint files
+@N:<a href="@N:BW103:@XP_HELP">BW103</a> : <!@TM:1702488837> | The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns. 
+@N:<a href="@N:BW107:@XP_HELP">BW107</a> : <!@TM:1702488837> | Synopsys Constraint File capacitance units using default value of 1pF  
+@N:<a href="@N:FX1056:@XP_HELP">FX1056</a> : <!@TM:1702488837> | Writing EDF file: C:\Users\CND\Desktop\new_sap\new_sap\new_sap_Implmnt\new_sap.edf 
+L-2016.09L+ice40
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 153MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 153MB)
+
+Warning: Found 1 combinational loops!
+<font color=#A52A2A>@W:<a href="@W:BN137:@XP_HELP">BN137</a> : <!@TM:1702488837> | Found combinational loop during mapping at net G_138</font> 
+1) instance N_62_i (in view: work.test(verilog)), output net G_138 (in view: work.test(verilog))
+    net        G_138
+    input  pin N_62_i/I0
+    instance   N_62_i (cell SB_LUT4)
+    output pin N_62_i/O
+    net        uut.G_138
+End of loops
+<font color=#A52A2A>@W:<a href="@W:MT420:@XP_HELP">MT420</a> : <!@TM:1702488837> | Found inferred clock main|buf_clk_1_inferred_clock with period 16.10ns. Please declare a user-defined clock on object "n:uut.buf_clk_1"</font> 
+
+
+<a name=timingReport9></a>##### START OF TIMING REPORT #####[</a>
+# Timing Report written on Wed Dec 13 19:33:57 2023
+#
+
+
+Top view:               test
+Requested Frequency:    62.1 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N:<a href="@N:MT320:@XP_HELP">MT320</a> : <!@TM:1702488837> | This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report. 
+
+@N:<a href="@N:MT322:@XP_HELP">MT322</a> : <!@TM:1702488837> | Clock constraints include only register-to-register paths associated with each individual clock. 
+
+
+
+<a name=performanceSummary10></a>Performance Summary</a>
+*******************
+
+
+Worst slack in design: -6.842
+
+                                  Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock                    Frequency     Frequency     Period        Period        Slack      Type         Group                
+---------------------------------------------------------------------------------------------------------------------------------------
+main|buf_clk_1_inferred_clock     62.1 MHz      33.6 MHz      16.095        29.779        -6.842     inferred     Autoconstr_clkgroup_0
+=======================================================================================================================================
+
+
+
+
+
+<a name=clockRelationships11></a>Clock Relationships</a>
+*******************
+
+Clocks                                                        |    rise  to  rise   |    fall  to  fall    |    rise  to  fall    |    fall  to  rise  
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                       Ending                         |  constraint  slack  |  constraint  slack   |  constraint  slack   |  constraint  slack 
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+main|buf_clk_1_inferred_clock  main|buf_clk_1_inferred_clock  |  16.095      6.660  |  16.095      -2.840  |  8.048       -3.312  |  8.048       -6.842
+=======================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+<a name=interfaceInfo12></a>Interface Information </a>
+*********************
+
+No IO constraint found
+
+
+
+====================================
+<a name=clockReport13></a>Detailed Report for Clock: main|buf_clk_1_inferred_clock</a>
+====================================
+
+
+
+<a name=startingSlack14></a>Starting Points with Worst Slack</a>
+********************************
+
+                                Starting                                                                 Arrival           
+Instance                        Reference                         Type         Pin     Net               Time        Slack 
+                                Clock                                                                                      
+---------------------------------------------------------------------------------------------------------------------------
+uut.seq.counter.T_fast[2]       main|buf_clk_1_inferred_clock     SB_DFFN      Q       T_fast[2]         0.540       -6.842
+uut.IR.ff7.q_ret_1_fast         main|buf_clk_1_inferred_clock     SB_DFFN      Q       q_ret_1_fast      0.540       -6.835
+uut.IR.ff8.q_0_fast             main|buf_clk_1_inferred_clock     SB_DFFN      Q       q_0_fast          0.540       -6.833
+uut.IR.ff6.q_ret_1              main|buf_clk_1_inferred_clock     SB_DFFN      Q       ir_out_i_2[5]     0.540       -6.805
+uut.seq.counter.T_1_fast[0]     main|buf_clk_1_inferred_clock     SB_DFFN      Q       T_1_fast[0]       0.540       -6.793
+uut.IR.ff7.q_ret_1              main|buf_clk_1_inferred_clock     SB_DFFN      Q       ir_out_i_2[6]     0.540       -6.777
+uut.seq.counter.T_1_fast[1]     main|buf_clk_1_inferred_clock     SB_DFFN      Q       T_1_fast[1]       0.540       -6.772
+uut.IR.ff6.q_ret_1_fast         main|buf_clk_1_inferred_clock     SB_DFFN      Q       q_ret_1_fast      0.540       -6.772
+uut.IR.ff7.q_0_ne               main|buf_clk_1_inferred_clock     SB_DFFNE     Q       ir_out[6]         0.540       -6.723
+uut.seq.counter.T_1_fast[3]     main|buf_clk_1_inferred_clock     SB_DFFN      Q       T_1_fast[3]       0.540       -6.709
+===========================================================================================================================
+
+
+<a name=endingSlack15></a>Ending Points with Worst Slack</a>
+******************************
+
+                              Starting                                                                        Required           
+Instance                      Reference                         Type         Pin     Net                      Time         Slack 
+                              Clock                                                                                              
+---------------------------------------------------------------------------------------------------------------------------------
+uut.pc.program_counter[1]     main|buf_clk_1_inferred_clock     SB_DFF       D       program_counter_4[1]     7.942        -6.842
+uut.pc.program_counter[0]     main|buf_clk_1_inferred_clock     SB_DFF       D       program_counter_4[0]     7.942        -6.833
+uut.pc.program_counter[3]     main|buf_clk_1_inferred_clock     SB_DFF       D       program_counter_4[3]     7.942        -5.394
+uut.pc.program_counter[2]     main|buf_clk_1_inferred_clock     SB_DFF       D       program_counter_4[2]     7.942        -5.253
+uut.out_reg.ff1.q             main|buf_clk_1_inferred_clock     SB_DFFN      D       q                        7.942        -3.312
+uut.seq.q_ret_1               main|buf_clk_1_inferred_clock     SB_DFFN      D       un1_HLT_reti             15.990       -2.840
+uut.acc.ff1.q                 main|buf_clk_1_inferred_clock     SB_DFFNE     D       g0_4                     7.942        -1.514
+uut.b_reg.ff1.q               main|buf_clk_1_inferred_clock     SB_DFFNE     D       g0_4                     7.942        -1.514
+uut.out_reg.ff3.q             main|buf_clk_1_inferred_clock     SB_DFFN      D       q                        7.942        -1.514
+uut.mar.ff1.q_ne              main|buf_clk_1_inferred_clock     SB_DFFNE     D       g0_4                     7.942        -1.514
+=================================================================================================================================
+
+
+
+<a name=worstPaths16></a>Worst Path Information</a>
+<a href="C:\Users\CND\Desktop\new_sap\new_sap\new_sap_Implmnt\new_sap.srr:srsfC:\Users\CND\Desktop\new_sap\new_sap\new_sap_Implmnt\new_sap.srs:fp:32692:35527:@XP_NAMES_GATE">View Worst Path in Analyst</a>
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      8.048
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         7.942
+
+    - Propagation time:                      14.785
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -6.842
+
+    Number of logic level(s):                8
+    Starting point:                          uut.seq.counter.T_fast[2] / Q
+    Ending point:                            uut.pc.program_counter[1] / D
+    The start point is clocked by            main|buf_clk_1_inferred_clock [falling] on pin C
+    The end   point is clocked by            main|buf_clk_1_inferred_clock [rising] on pin C
+
+Instance / Net                                        Pin      Pin               Arrival     No. of    
+Name                                     Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------
+uut.seq.counter.T_fast[2]                SB_DFFN      Q        Out     0.540     0.540       -         
+T_fast[2]                                Net          -        -       1.599     -           2         
+uut.seq.counter.T_1_fast_RNIU5S31[0]     SB_LUT4      I0       In      -         2.139       -         
+uut.seq.counter.T_1_fast_RNIU5S31[0]     SB_LUT4      O        Out     0.449     2.588       -         
+T[4]                                     Net          -        -       1.371     -           6         
+uut.seq.counter.T_1_fast_RNITEB42[0]     SB_LUT4      I0       In      -         3.959       -         
+uut.seq.counter.T_1_fast_RNITEB42[0]     SB_LUT4      O        Out     0.449     4.408       -         
+un13_ACC_LD                              Net          -        -       1.371     -           11        
+uut.ALU_main.un1_A_axb_0_l_ofx           SB_LUT4      I3       In      -         5.779       -         
+uut.ALU_main.un1_A_axb_0_l_ofx           SB_LUT4      O        Out     0.316     6.094       -         
+un1_A_axb_0_l_ofx                        Net          -        -       0.905     -           2         
+uut.ALU_main.un1_A_cry_0_c               SB_CARRY     I0       In      -         6.999       -         
+uut.ALU_main.un1_A_cry_0_c               SB_CARRY     CO       Out     0.258     7.257       -         
+un1_A_cry_0                              Net          -        -       0.386     -           2         
+uut.ALU_main.un1_A_cry_0_c_RNI3CH45      SB_LUT4      I3       In      -         7.643       -         
+uut.ALU_main.un1_A_cry_0_c_RNI3CH45      SB_LUT4      O        Out     0.316     7.958       -         
+un1_A_cry_0_c_RNI3CH45                   Net          -        -       1.371     -           2         
+uut.pc.program_counter_RNO_2[1]          SB_LUT4      I0       In      -         9.329       -         
+uut.pc.program_counter_RNO_2[1]          SB_LUT4      O        Out     0.449     9.778       -         
+g1_0                                     Net          -        -       1.371     -           1         
+uut.pc.program_counter_RNO_0[1]          SB_LUT4      I2       In      -         11.149      -         
+uut.pc.program_counter_RNO_0[1]          SB_LUT4      O        Out     0.379     11.528      -         
+program_counter_0_1[1]                   Net          -        -       1.371     -           1         
+uut.pc.program_counter_RNO[1]            SB_LUT4      I2       In      -         12.899      -         
+uut.pc.program_counter_RNO[1]            SB_LUT4      O        Out     0.379     13.278      -         
+program_counter_4[1]                     Net          -        -       1.507     -           1         
+uut.pc.program_counter[1]                SB_DFF       D        In      -         14.785      -         
+=======================================================================================================
+Total path delay (propagation time + setup) of 14.890 is 3.638(24.4%) logic and 11.252(75.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      8.048
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         7.942
+
+    - Propagation time:                      14.778
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -6.835
+
+    Number of logic level(s):                8
+    Starting point:                          uut.IR.ff7.q_ret_1_fast / Q
+    Ending point:                            uut.pc.program_counter[1] / D
+    The start point is clocked by            main|buf_clk_1_inferred_clock [falling] on pin C
+    The end   point is clocked by            main|buf_clk_1_inferred_clock [rising] on pin C
+
+Instance / Net                                          Pin      Pin               Arrival     No. of    
+Name                                       Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------
+uut.IR.ff7.q_ret_1_fast                    SB_DFFN      Q        Out     0.540     0.540       -         
+q_ret_1_fast                               Net          -        -       1.599     -           5         
+uut.seq.decoder.D_0_2                      SB_LUT4      I0       In      -         2.139       -         
+uut.seq.decoder.D_0_2                      SB_LUT4      O        Out     0.449     2.588       -         
+D_1[3]                                     Net          -        -       1.371     -           7         
+uut.seq.counter.T_1_fast_RNI28LI1_0[0]     SB_LUT4      I2       In      -         3.959       -         
+uut.seq.counter.T_1_fast_RNI28LI1_0[0]     SB_LUT4      O        Out     0.379     4.338       -         
+un7_ACC_LD                                 Net          -        -       1.371     -           10        
+uut.ALU_main.un1_A_axb_0_l_ofx             SB_LUT4      I2       In      -         5.708       -         
+uut.ALU_main.un1_A_axb_0_l_ofx             SB_LUT4      O        Out     0.379     6.087       -         
+un1_A_axb_0_l_ofx                          Net          -        -       0.905     -           2         
+uut.ALU_main.un1_A_cry_0_c                 SB_CARRY     I0       In      -         6.992       -         
+uut.ALU_main.un1_A_cry_0_c                 SB_CARRY     CO       Out     0.258     7.250       -         
+un1_A_cry_0                                Net          -        -       0.386     -           2         
+uut.ALU_main.un1_A_cry_0_c_RNI3CH45        SB_LUT4      I3       In      -         7.636       -         
+uut.ALU_main.un1_A_cry_0_c_RNI3CH45        SB_LUT4      O        Out     0.316     7.951       -         
+un1_A_cry_0_c_RNI3CH45                     Net          -        -       1.371     -           2         
+uut.pc.program_counter_RNO_2[1]            SB_LUT4      I0       In      -         9.322       -         
+uut.pc.program_counter_RNO_2[1]            SB_LUT4      O        Out     0.449     9.771       -         
+g1_0                                       Net          -        -       1.371     -           1         
+uut.pc.program_counter_RNO_0[1]            SB_LUT4      I2       In      -         11.142      -         
+uut.pc.program_counter_RNO_0[1]            SB_LUT4      O        Out     0.379     11.521      -         
+program_counter_0_1[1]                     Net          -        -       1.371     -           1         
+uut.pc.program_counter_RNO[1]              SB_LUT4      I2       In      -         12.892      -         
+uut.pc.program_counter_RNO[1]              SB_LUT4      O        Out     0.379     13.271      -         
+program_counter_4[1]                       Net          -        -       1.507     -           1         
+uut.pc.program_counter[1]                  SB_DFF       D        In      -         14.778      -         
+=========================================================================================================
+Total path delay (propagation time + setup) of 14.883 is 3.631(24.4%) logic and 11.252(75.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      8.048
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         7.942
+
+    - Propagation time:                      14.775
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -6.833
+
+    Number of logic level(s):                7
+    Starting point:                          uut.IR.ff8.q_0_fast / Q
+    Ending point:                            uut.pc.program_counter[0] / D
+    The start point is clocked by            main|buf_clk_1_inferred_clock [falling] on pin C
+    The end   point is clocked by            main|buf_clk_1_inferred_clock [rising] on pin C
+
+Instance / Net                                    Pin      Pin               Arrival     No. of    
+Name                                  Type        Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------
+uut.IR.ff8.q_0_fast                   SB_DFFN     Q        Out     0.540     0.540       -         
+q_0_fast                              Net         -        -       1.599     -           10        
+uut.seq.counter.T_fast_RNIH09P[2]     SB_LUT4     I0       In      -         2.139       -         
+uut.seq.counter.T_fast_RNIH09P[2]     SB_LUT4     O        Out     0.449     2.588       -         
+T_fast_RNIH09P[2]                     Net         -        -       1.371     -           1         
+uut.seq.counter.T_fast_RNICCPP[2]     SB_LUT4     I1       In      -         3.959       -         
+uut.seq.counter.T_fast_RNICCPP[2]     SB_LUT4     O        Out     0.400     4.359       -         
+OUT_LD                                Net         -        -       1.371     -           15        
+uut.pc.program_counter_RNO_4[0]       SB_LUT4     I0       In      -         5.729       -         
+uut.pc.program_counter_RNO_4[0]       SB_LUT4     O        Out     0.386     6.115       -         
+G_26_i_a4_1                           Net         -        -       1.371     -           1         
+uut.pc.program_counter_RNO_3[0]       SB_LUT4     I0       In      -         7.486       -         
+uut.pc.program_counter_RNO_3[0]       SB_LUT4     O        Out     0.449     7.935       -         
+G_26_i_a4_5_sx                        Net         -        -       1.371     -           1         
+uut.pc.program_counter_RNO_1[0]       SB_LUT4     I0       In      -         9.306       -         
+uut.pc.program_counter_RNO_1[0]       SB_LUT4     O        Out     0.386     9.692       -         
+G_26_i_a4_5                           Net         -        -       1.371     -           1         
+uut.pc.program_counter_RNO_0[0]       SB_LUT4     I0       In      -         11.063      -         
+uut.pc.program_counter_RNO_0[0]       SB_LUT4     O        Out     0.386     11.448      -         
+N_4_i_1                               Net         -        -       1.371     -           1         
+uut.pc.program_counter_RNO[0]         SB_LUT4     I0       In      -         12.819      -         
+uut.pc.program_counter_RNO[0]         SB_LUT4     O        Out     0.449     13.268      -         
+program_counter_4[0]                  Net         -        -       1.507     -           1         
+uut.pc.program_counter[0]             SB_DFF      D        In      -         14.775      -         
+===================================================================================================
+Total path delay (propagation time + setup) of 14.880 is 3.548(23.8%) logic and 11.332(76.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      8.048
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         7.942
+
+    - Propagation time:                      14.761
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -6.819
+
+    Number of logic level(s):                7
+    Starting point:                          uut.seq.counter.T_fast[2] / Q
+    Ending point:                            uut.pc.program_counter[0] / D
+    The start point is clocked by            main|buf_clk_1_inferred_clock [falling] on pin C
+    The end   point is clocked by            main|buf_clk_1_inferred_clock [rising] on pin C
+
+Instance / Net                                       Pin      Pin               Arrival     No. of    
+Name                                     Type        Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------
+uut.seq.counter.T_fast[2]                SB_DFFN     Q        Out     0.540     0.540       -         
+T_fast[2]                                Net         -        -       1.599     -           2         
+uut.seq.counter.T_1_fast_RNIU5S31[0]     SB_LUT4     I0       In      -         2.139       -         
+uut.seq.counter.T_1_fast_RNIU5S31[0]     SB_LUT4     O        Out     0.449     2.588       -         
+T[4]                                     Net         -        -       1.371     -           6         
+uut.seq.counter.T_1_fast_RNITEB42[0]     SB_LUT4     I0       In      -         3.959       -         
+uut.seq.counter.T_1_fast_RNITEB42[0]     SB_LUT4     O        Out     0.449     4.408       -         
+un13_ACC_LD                              Net         -        -       1.371     -           11        
+uut.ALU_main.un1_A_axb_0_l_ofx           SB_LUT4     I3       In      -         5.779       -         
+uut.ALU_main.un1_A_axb_0_l_ofx           SB_LUT4     O        Out     0.316     6.094       -         
+un1_A_axb_0_l_ofx                        Net         -        -       1.371     -           2         
+uut.ALU_main.un1_A_cry_0_s               SB_LUT4     I1       In      -         7.465       -         
+uut.ALU_main.un1_A_cry_0_s               SB_LUT4     O        Out     0.400     7.865       -         
+un1_A_cry_0_s                            Net         -        -       1.371     -           3         
+uut.pc.program_counter_RNO_2[0]          SB_LUT4     I0       In      -         9.236       -         
+uut.pc.program_counter_RNO_2[0]          SB_LUT4     O        Out     0.449     9.685       -         
+N_11                                     Net         -        -       1.371     -           1         
+uut.pc.program_counter_RNO_0[0]          SB_LUT4     I1       In      -         11.056      -         
+uut.pc.program_counter_RNO_0[0]          SB_LUT4     O        Out     0.379     11.434      -         
+N_4_i_1                                  Net         -        -       1.371     -           1         
+uut.pc.program_counter_RNO[0]            SB_LUT4     I0       In      -         12.805      -         
+uut.pc.program_counter_RNO[0]            SB_LUT4     O        Out     0.449     13.254      -         
+program_counter_4[0]                     Net         -        -       1.507     -           1         
+uut.pc.program_counter[0]                SB_DFF      D        In      -         14.761      -         
+======================================================================================================
+Total path delay (propagation time + setup) of 14.866 is 3.534(23.8%) logic and 11.332(76.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      8.048
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         7.942
+
+    - Propagation time:                      14.754
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -6.812
+
+    Number of logic level(s):                7
+    Starting point:                          uut.IR.ff7.q_ret_1_fast / Q
+    Ending point:                            uut.pc.program_counter[0] / D
+    The start point is clocked by            main|buf_clk_1_inferred_clock [falling] on pin C
+    The end   point is clocked by            main|buf_clk_1_inferred_clock [rising] on pin C
+
+Instance / Net                                         Pin      Pin               Arrival     No. of    
+Name                                       Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------
+uut.IR.ff7.q_ret_1_fast                    SB_DFFN     Q        Out     0.540     0.540       -         
+q_ret_1_fast                               Net         -        -       1.599     -           5         
+uut.seq.decoder.D_0_2                      SB_LUT4     I0       In      -         2.139       -         
+uut.seq.decoder.D_0_2                      SB_LUT4     O        Out     0.449     2.588       -         
+D_1[3]                                     Net         -        -       1.371     -           7         
+uut.seq.counter.T_1_fast_RNI28LI1_0[0]     SB_LUT4     I2       In      -         3.959       -         
+uut.seq.counter.T_1_fast_RNI28LI1_0[0]     SB_LUT4     O        Out     0.379     4.338       -         
+un7_ACC_LD                                 Net         -        -       1.371     -           10        
+uut.ALU_main.un1_A_axb_0_l_ofx             SB_LUT4     I2       In      -         5.708       -         
+uut.ALU_main.un1_A_axb_0_l_ofx             SB_LUT4     O        Out     0.379     6.087       -         
+un1_A_axb_0_l_ofx                          Net         -        -       1.371     -           2         
+uut.ALU_main.un1_A_cry_0_s                 SB_LUT4     I1       In      -         7.458       -         
+uut.ALU_main.un1_A_cry_0_s                 SB_LUT4     O        Out     0.400     7.858       -         
+un1_A_cry_0_s                              Net         -        -       1.371     -           3         
+uut.pc.program_counter_RNO_2[0]            SB_LUT4     I0       In      -         9.229       -         
+uut.pc.program_counter_RNO_2[0]            SB_LUT4     O        Out     0.449     9.678       -         
+N_11                                       Net         -        -       1.371     -           1         
+uut.pc.program_counter_RNO_0[0]            SB_LUT4     I1       In      -         11.049      -         
+uut.pc.program_counter_RNO_0[0]            SB_LUT4     O        Out     0.379     11.427      -         
+N_4_i_1                                    Net         -        -       1.371     -           1         
+uut.pc.program_counter_RNO[0]              SB_LUT4     I0       In      -         12.798      -         
+uut.pc.program_counter_RNO[0]              SB_LUT4     O        Out     0.449     13.247      -         
+program_counter_4[0]                       Net         -        -       1.507     -           1         
+uut.pc.program_counter[0]                  SB_DFF      D        In      -         14.754      -         
+========================================================================================================
+Total path delay (propagation time + setup) of 14.859 is 3.527(23.7%) logic and 11.332(76.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 153MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 153MB)
+
+---------------------------------------
+<a name=resourceUsage17></a>Resource Usage Report for test </a>
+
+Mapping to part: ice40hx1ktq144
+Cell usage:
+GND             50 uses
+SB_CARRY        7 uses
+SB_DFF          4 uses
+SB_DFFN         29 uses
+SB_DFFNE        28 uses
+SB_GB           1 use
+VCC             50 uses
+SB_LUT4         210 uses
+
+I/O ports: 5
+I/O primitives: 5
+SB_IO          5 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   61 (4%)
+Total load per clock:
+
+@S |Mapping Summary:
+Total  LUTs: 210 (16%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed Luts 210 = 210 
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 29MB peak: 153MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Dec 13 19:33:57 2023
+
+###########################################################]
+
+</pre></samp></body></html>

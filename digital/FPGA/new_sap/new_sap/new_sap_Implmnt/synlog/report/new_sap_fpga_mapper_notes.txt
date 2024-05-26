@@ -1,0 +1,25 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MT206 |Auto Constrain mode is enabled
+@N: MO106 :"c:\users\cnd\desktop\new_sap\memory.v":14:12:14:15|Found ROM .delname. (in view: work.rom(verilog)) with 16 words by 8 bits.
+@N: BN362 :"c:\users\cnd\desktop\new_sap\dflipflop.v":14:4:14:9|Removing sequential instance uut.IR.ff7.q (in view: work.test(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\cnd\desktop\new_sap\dflipflop.v":14:4:14:9|Removing sequential instance uut.IR.ff5.q (in view: work.test(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\cnd\desktop\new_sap\t_state_counter.v":6:4:6:9|Removing sequential instance uut.seq.counter.T_1[2] (in view: work.test(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\cnd\desktop\new_sap\dflipflop.v":14:4:14:9|Removing sequential instance uut.IR.ff6.q (in view: work.test(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\cnd\desktop\new_sap\dflipflop.v":14:4:14:9|Removing sequential instance uut.IR.ff8.q (in view: work.test(verilog)) because it does not drive other instances.
+@N: FX271 :"c:\users\cnd\desktop\new_sap\dflipflop.v":14:4:14:9|Replicating instance uut.IR.ff5.q_0 (in view: work.test(verilog)) with 19 loads 2 times to improve timing.
+@N: FX271 :"c:\users\cnd\desktop\new_sap\dflipflop.v":14:4:14:9|Replicating instance uut.IR.ff8.q_0 (in view: work.test(verilog)) with 19 loads 1 time to improve timing.
+@N: FX271 :"c:\users\cnd\desktop\new_sap\t_state_counter.v":6:4:6:9|Replicating instance uut.seq.counter.T[2] (in view: work.test(verilog)) with 20 loads 2 times to improve timing.
+@N: FX271 :"c:\users\cnd\desktop\new_sap\dflipflop.v":14:4:14:9|Replicating instance uut.IR.ff7.q_ret_1 (in view: work.test(verilog)) with 10 loads 1 time to improve timing.
+@N: FX271 :"c:\users\cnd\desktop\new_sap\dflipflop.v":14:4:14:9|Replicating instance uut.IR.ff6.q_ret_1 (in view: work.test(verilog)) with 8 loads 1 time to improve timing.
+@N: FX271 :"c:\users\cnd\desktop\new_sap\dflipflop.v":14:4:14:9|Replicating instance uut.IR.ff6.q_0 (in view: work.test(verilog)) with 12 loads 1 time to improve timing.
+@N: FX271 :"c:\users\cnd\desktop\new_sap\dflipflop.v":14:4:14:9|Replicating instance uut.IR.ff7.q_0 (in view: work.test(verilog)) with 12 loads 1 time to improve timing.
+@N: FX271 :"c:\users\cnd\desktop\new_sap\t_state_counter.v":6:4:6:9|Replicating instance uut.seq.counter.T_1[3] (in view: work.test(verilog)) with 12 loads 1 time to improve timing.
+@N: FX271 :"c:\users\cnd\desktop\new_sap\t_state_counter.v":6:4:6:9|Replicating instance uut.seq.counter.T_1[1] (in view: work.test(verilog)) with 22 loads 1 time to improve timing.
+@N: FX271 :"c:\users\cnd\desktop\new_sap\t_state_counter.v":6:4:6:9|Replicating instance uut.seq.counter.T_1[0] (in view: work.test(verilog)) with 9 loads 1 time to improve timing.
+@N: FX1017 :"c:\users\cnd\desktop\new_sap\test.v":34:5:34:7|SB_GB inserted on the net uut.buf_clk_1.
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: FX1056 |Writing EDF file: C:\Users\CND\Desktop\new_sap\new_sap\new_sap_Implmnt\new_sap.edf
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

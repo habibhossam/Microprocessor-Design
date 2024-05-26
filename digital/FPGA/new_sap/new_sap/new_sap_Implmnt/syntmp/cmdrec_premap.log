@@ -1,0 +1,13 @@
+C:\lscc\iCEcube2.2020.12\synpbase\bin64\m_generic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  C:\Users\CND\Desktop\new_sap\new_sap\new_sap_Implmnt   -part iCE40HX1K  -package TQ144    -maxfan 10000 -RWCheckOnRam 0 -pipe -fixgatedclocks 1 -fixgeneratedclocks 1 -summaryfile C:\Users\CND\Desktop\new_sap\new_sap\new_sap_Implmnt\synlog\report\new_sap_premap.xml  -oedif  C:\Users\CND\Desktop\new_sap\new_sap\new_sap_Implmnt\new_sap.edf  -conchk_prepass  C:\Users\CND\Desktop\new_sap\new_sap\new_sap_Implmnt\new_sap_cck.rpt   -autoconstraint  -freq 1.000   C:\Users\CND\Desktop\new_sap\new_sap\new_sap_Implmnt\synwork\new_sap_mult.srs  -flow prepass  -gcc_prepass  -osrd  C:\Users\CND\Desktop\new_sap\new_sap\new_sap_Implmnt\synwork\new_sap_prem.srd  -qsap  C:\Users\CND\Desktop\new_sap\new_sap\new_sap_Implmnt\new_sap.sap  -devicelib  C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v  -ologparam  C:\Users\CND\Desktop\new_sap\new_sap\new_sap_Implmnt\syntmp\new_sap.plg  -osyn  C:\Users\CND\Desktop\new_sap\new_sap\new_sap_Implmnt\synwork\new_sap_prem.srd  -prjdir  C:\Users\CND\Desktop\new_sap\new_sap\  -prjname  new_sap_syn  -log  C:\Users\CND\Desktop\new_sap\new_sap\new_sap_Implmnt\synlog\new_sap_premap.srr 
+rc:1 success:1 runtime:0
+file:C:\Users\CND\Desktop\new_sap\new_sap\new_sap_Implmnt\new_sap.edf|io:o|time:0|size:0|exec:0
+file:C:\Users\CND\Desktop\new_sap\new_sap\new_sap_Implmnt\new_sap_cck.rpt|io:o|time:1702488835|size:2294|exec:0
+file:C:\Users\CND\Desktop\new_sap\new_sap\new_sap_Implmnt\synwork\new_sap_mult.srs|io:i|time:1702488835|size:1804|exec:0
+file:C:\Users\CND\Desktop\new_sap\new_sap\new_sap_Implmnt\synwork\new_sap_prem.srd|io:o|time:1702488835|size:21132|exec:0
+file:C:\Users\CND\Desktop\new_sap\new_sap\new_sap_Implmnt\new_sap.sap|io:o|time:1702488835|size:2116|exec:0
+file:C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v|io:i|time:1700077439|size:224837|exec:0
+file:C:\Users\CND\Desktop\new_sap\new_sap\new_sap_Implmnt\syntmp\new_sap.plg|io:o|time:1702488835|size:0|exec:0
+file:C:\Users\CND\Desktop\new_sap\new_sap\new_sap_Implmnt\synwork\new_sap_prem.srd|io:o|time:1702488835|size:21132|exec:0
+file:C:\Users\CND\Desktop\new_sap\new_sap\new_sap_Implmnt\synlog\new_sap_premap.srr|io:o|time:1702488835|size:6218|exec:0
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin\m_generic.exe|io:i|time:1700077437|size:17853440|exec:1
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin64\m_generic.exe|io:i|time:1700077438|size:32355840|exec:1

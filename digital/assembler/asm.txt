@@ -1,0 +1,10 @@
+ORG 0 /Origin of program is location 0 
+LDA A /Load operand from location A 
+ADD B /Add operand from location B
+sub c
+out 
+HLT /Halt computer 
+A, DEC 83 /Decimal operand 
+B, DEC -23 /Decimal operand
+c, hex 0 
+END

@@ -1,0 +1,20 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"C:\Users\CND\Desktop\new_sap\opcode_decoder.v":1:7:1:20|Synthesizing module opcode_decoder in library work.
+@N: CG364 :"C:\Users\CND\Desktop\new_sap\t_state_counter.v":2:7:2:19|Synthesizing module state_counter in library work.
+@N: CG364 :"C:\Users\CND\Desktop\new_sap\control_unit.v":1:7:1:23|Synthesizing module control_sequencer in library work.
+@N: CG364 :"C:\Users\CND\Desktop\new_sap\tristatebuff_4bit.v":1:7:1:23|Synthesizing module tristatebuff_4bit in library work.
+@N: CG364 :"C:\Users\CND\Desktop\new_sap\program_counter.v":1:7:1:21|Synthesizing module program_counter in library work.
+@N: CG364 :"C:\Users\CND\Desktop\new_sap\dFlipflop.v":2:7:2:15|Synthesizing module dFlipflop in library work.
+@N: CG364 :"C:\Users\CND\Desktop\new_sap\register_4bit.v":1:7:1:14|Synthesizing module reg_4bit in library work.
+@N: CG364 :"C:\Users\CND\Desktop\new_sap\memory.v":1:7:1:9|Synthesizing module rom in library work.
+@N: CG364 :"C:\Users\CND\Desktop\new_sap\register_8bit.v":1:7:1:14|Synthesizing module reg_8bit in library work.
+@N: CG364 :"C:\Users\CND\Desktop\new_sap\tristatebuff_8bit.v":2:7:2:23|Synthesizing module tristatebuff_8bit in library work.
+@N: CG364 :"C:\Users\CND\Desktop\new_sap\ALU.v":1:7:1:9|Synthesizing module alu in library work.
+@N: CG364 :"C:\Users\CND\Desktop\new_sap\top_mod.v":14:7:14:10|Synthesizing module main in library work.
+@N: CG364 :"C:\Users\CND\Desktop\new_sap\test.v":3:7:3:10|Synthesizing module test in library work.
+@N: CL201 :"C:\Users\CND\Desktop\new_sap\t_state_counter.v":6:4:6:9|Trying to extract state machine for register T.
+@N|Running in 64-bit mode
+@N: NF107 :"C:\Users\CND\Desktop\new_sap\test.v":3:7:3:10|Selected library: work cell: test view verilog as top level
+@N: NF107 :"C:\Users\CND\Desktop\new_sap\test.v":3:7:3:10|Selected library: work cell: test view verilog as top level
+

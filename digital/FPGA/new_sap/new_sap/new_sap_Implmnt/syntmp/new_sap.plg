@@ -1,0 +1,12 @@
+@P:  Worst Slack : -6.842
+@P:  main|buf_clk_1_inferred_clock - Estimated Frequency : 33.6 MHz
+@P:  main|buf_clk_1_inferred_clock - Requested Frequency : 62.1 MHz
+@P:  main|buf_clk_1_inferred_clock - Estimated Period : 29.779
+@P:  main|buf_clk_1_inferred_clock - Requested Period : 16.095
+@P:  main|buf_clk_1_inferred_clock - Slack : -6.842
+@P: test Part : ice40hx1ktq144
+@P: test I/O primitives : 5
+@P: test I/O Register bits : 0
+@P: test Register bits (Non I/O) : 61 (4%)
+@P: test Total Luts : 210 (16%)
+@P:  CPU Time : 0h:00m:01s

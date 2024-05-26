@@ -1,0 +1,4 @@
+@W: BN137 :"c:\users\cnd\desktop\new_sap\test.v":21:19:21:23|Found combinational loop during mapping at net clk1
+@W: MT529 :"c:\users\cnd\desktop\new_sap\t_state_counter.v":6:4:6:9|Found inferred clock main|buf_clk_1_inferred_clock which controls 45 sequential elements including uut.seq.counter.T_1[4:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MO162 :"c:\users\cnd\desktop\new_sap\test.v":3:7:3:10|Net clk1 (in view: work.test(verilog)) resulted in a combinational loop around inverter clk1 (in view: work.test(verilog)) 
+@W: MO162 :"c:\users\cnd\desktop\new_sap\test.v":3:7:3:10|Net clk1 (in view: work.test(verilog)) resulted in a combinational loop around inverter clk1 (in view: work.test(verilog)) 

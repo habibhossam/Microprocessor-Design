@@ -1,0 +1,7 @@
+C:\lscc\iCEcube2.2020.12\synpbase\bin64\syn_nfilter.exe  -link  -multisrs  C:\Users\CND\Desktop\new_sap\new_sap\new_sap_Implmnt\synwork\new_sap_comp.srs  -osyn  C:\Users\CND\Desktop\new_sap\new_sap\new_sap_Implmnt\synwork\new_sap_mult.srs  -log  C:\Users\CND\Desktop\new_sap\new_sap\new_sap_Implmnt\synlog\new_sap_multi_srs_gen.srr 
+rc:0 success:1 runtime:0
+file:C:\Users\CND\Desktop\new_sap\new_sap\new_sap_Implmnt\synwork\new_sap_comp.srs|io:i|time:1702488834|size:13589|exec:0
+file:C:\Users\CND\Desktop\new_sap\new_sap\new_sap_Implmnt\synwork\new_sap_mult.srs|io:o|time:1702488835|size:1804|exec:0
+file:C:\Users\CND\Desktop\new_sap\new_sap\new_sap_Implmnt\synlog\new_sap_multi_srs_gen.srr|io:o|time:1702488835|size:753|exec:0
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin\syn_nfilter.exe|io:i|time:1700077437|size:3128320|exec:1
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin64\syn_nfilter.exe|io:i|time:1700077438|size:3947520|exec:1

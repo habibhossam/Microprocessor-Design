@@ -1,0 +1,5 @@
+OUTPUT LED4 	 location (13, 11, 0) 	 96 	 SB_LVCMOS
+OUTPUT LED2 	 location (13, 12, 0) 	 98 	 SB_LVCMOS
+OUTPUT LED5 	 location (13, 9, 1) 	 95 	 SB_LVCMOS
+OUTPUT LED3 	 location (13, 11, 1) 	 97 	 SB_LVCMOS
+OUTPUT LED1 	 location (13, 12, 1) 	 99 	 SB_LVCMOS

@@ -1,0 +1,43 @@
+Selecting top level module test
+@N: CG364 :"C:\Users\CND\Desktop\new_sap\opcode_decoder.v":1:7:1:20|Synthesizing module opcode_decoder in library work.
+
+@N: CG364 :"C:\Users\CND\Desktop\new_sap\t_state_counter.v":2:7:2:19|Synthesizing module state_counter in library work.
+
+@N: CG364 :"C:\Users\CND\Desktop\new_sap\control_unit.v":1:7:1:23|Synthesizing module control_sequencer in library work.
+
+@W: CG360 :"C:\Users\CND\Desktop\new_sap\control_unit.v":25:9:25:16|Removing wire CLR_Flag, as there is no assignment to it.
+@N: CG364 :"C:\Users\CND\Desktop\new_sap\tristatebuff_4bit.v":1:7:1:23|Synthesizing module tristatebuff_4bit in library work.
+
+@N: CG364 :"C:\Users\CND\Desktop\new_sap\program_counter.v":1:7:1:21|Synthesizing module program_counter in library work.
+
+@N: CG364 :"C:\Users\CND\Desktop\new_sap\dFlipflop.v":2:7:2:15|Synthesizing module dFlipflop in library work.
+
+@N: CG364 :"C:\Users\CND\Desktop\new_sap\register_4bit.v":1:7:1:14|Synthesizing module reg_4bit in library work.
+
+@N: CG364 :"C:\Users\CND\Desktop\new_sap\memory.v":1:7:1:9|Synthesizing module rom in library work.
+
+@N: CG364 :"C:\Users\CND\Desktop\new_sap\register_8bit.v":1:7:1:14|Synthesizing module reg_8bit in library work.
+
+@N: CG364 :"C:\Users\CND\Desktop\new_sap\tristatebuff_8bit.v":2:7:2:23|Synthesizing module tristatebuff_8bit in library work.
+
+@N: CG364 :"C:\Users\CND\Desktop\new_sap\ALU.v":1:7:1:9|Synthesizing module alu in library work.
+
+@N: CG364 :"C:\Users\CND\Desktop\new_sap\top_mod.v":14:7:14:10|Synthesizing module main in library work.
+
+@N: CG364 :"C:\Users\CND\Desktop\new_sap\test.v":3:7:3:10|Synthesizing module test in library work.
+
+@W: CG532 :"C:\Users\CND\Desktop\new_sap\test.v":14:0:14:6|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@W: CG294 :"C:\Users\CND\Desktop\new_sap\test.v":19:4:19:9|always block should contain at least one event control
+@W: CG532 :"C:\Users\CND\Desktop\new_sap\test.v":25:0:25:6|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@W: CG133 :"C:\Users\CND\Desktop\new_sap\test.v":12:9:12:11|Object clr is declared but not assigned. Either assign a value or remove the declaration.
+@W: FX105 :"C:\Users\CND\Desktop\new_sap\test.v":21:19:21:23|Found combinational loop at clk1
+@A: CL153 :"C:\Users\CND\Desktop\new_sap\test.v":12:9:12:11|*Unassigned bits of clr are referenced and tied to 0 -- simulation mismatch possible.
+@N: CL201 :"C:\Users\CND\Desktop\new_sap\t_state_counter.v":6:4:6:9|Trying to extract state machine for register T.
+Extracted state machine for register T
+State machine has 5 reachable states with original encodings of:
+   00001
+   00010
+   00100
+   01000
+   10000
+@W: CL249 :"C:\Users\CND\Desktop\new_sap\t_state_counter.v":6:4:6:9|Initial value is not supported on state machine T

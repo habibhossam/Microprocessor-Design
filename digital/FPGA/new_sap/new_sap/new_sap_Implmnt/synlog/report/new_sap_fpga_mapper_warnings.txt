@@ -1,0 +1,5 @@
+@W: BN137 :"c:\users\cnd\desktop\new_sap\test.v":21:19:21:23|Found combinational loop during mapping at net clk1
+@W: FA239 :"c:\users\cnd\desktop\new_sap\memory.v":14:12:14:15|ROM data_2[7:0] (in view: work.rom(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\users\cnd\desktop\new_sap\memory.v":14:12:14:15|ROM data_2[7:0] (in view: work.rom(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: BN137 :|Found combinational loop during mapping at net G_138
+@W: MT420 |Found inferred clock main|buf_clk_1_inferred_clock with period 16.10ns. Please declare a user-defined clock on object "n:uut.buf_clk_1"

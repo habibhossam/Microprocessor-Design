@@ -1,0 +1,82 @@
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\CND\\Desktop\\new_sap\\new_sap\\new_sap_Implmnt\\synwork\\new_sap_comp.srs|-prodtype|synplify_pro|-primux|-fixsmult|-infer_seqShift|-ice|-sdff_counter|-nram|-divnmod|-nostructver|-I|C:\\Users\\CND\\Desktop\\new_sap\\new_sap\\|-I|C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib|-v2001|-devicelib|C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\generic\\sb_ice40.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work"
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\bin64\\c_ver.exe":1700077437
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\generic\\sb_ice40.v":1700077439
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vlog\\hypermods.v":1700077440
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vlog\\umr_capim.v":1700077440
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vlog\\scemi_objects.v":1700077440
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vlog\\scemi_pipes.svh":1700077440
+#CUR:"C:\\Users\\CND\\Desktop\\new_sap\\test.v":1702488831
+#CUR:"C:\\Users\\CND\\Desktop\\new_sap\\top_mod.v":1702487333
+#CUR:"C:\\Users\\CND\\Desktop\\new_sap\\tristatebuff_8bit.v":1702334727
+#CUR:"C:\\Users\\CND\\Desktop\\new_sap\\tristatebuff_4bit.v":1702334729
+#CUR:"C:\\Users\\CND\\Desktop\\new_sap\\control_unit.v":1702398788
+#CUR:"C:\\Users\\CND\\Desktop\\new_sap\\opcode_decoder.v":1700943601
+#CUR:"C:\\Users\\CND\\Desktop\\new_sap\\program_counter.v":1702397634
+#CUR:"C:\\Users\\CND\\Desktop\\new_sap\\t_state_counter.v":1702487651
+#CUR:"C:\\Users\\CND\\Desktop\\new_sap\\demux.v":1631474061
+#CUR:"C:\\Users\\CND\\Desktop\\new_sap\\register_4bit.v":1702335616
+#CUR:"C:\\Users\\CND\\Desktop\\new_sap\\register_8bit.v":1702335640
+#CUR:"C:\\Users\\CND\\Desktop\\new_sap\\ALU.v":1701889644
+#CUR:"C:\\Users\\CND\\Desktop\\new_sap\\memory.v":1702482841
+#CUR:"C:\\Users\\CND\\Desktop\\new_sap\\dFlipflop.v":1702488505
+#numinternalfiles:5
+#defaultlanguage:verilog
+0			"C:\Users\CND\Desktop\new_sap\test.v" verilog
+1		*	"C:\Users\CND\Desktop\new_sap\top_mod.v" verilog
+2		*	"C:\Users\CND\Desktop\new_sap\tristatebuff_8bit.v" verilog
+3		*	"C:\Users\CND\Desktop\new_sap\tristatebuff_4bit.v" verilog
+4		*	"C:\Users\CND\Desktop\new_sap\control_unit.v" verilog
+5		*	"C:\Users\CND\Desktop\new_sap\opcode_decoder.v" verilog
+6		*	"C:\Users\CND\Desktop\new_sap\program_counter.v" verilog
+7		*	"C:\Users\CND\Desktop\new_sap\t_state_counter.v" verilog
+8		*	"C:\Users\CND\Desktop\new_sap\demux.v" verilog
+9		*	"C:\Users\CND\Desktop\new_sap\register_4bit.v" verilog
+10		*	"C:\Users\CND\Desktop\new_sap\register_8bit.v" verilog
+11		*	"C:\Users\CND\Desktop\new_sap\ALU.v" verilog
+12		*	"C:\Users\CND\Desktop\new_sap\memory.v" verilog
+13		*	"C:\Users\CND\Desktop\new_sap\dFlipflop.v" verilog
+#Dependency Lists(Uses List)
+0 1 2 3 4 5 6 7 8 9 10 11 12 13
+1 0 2 3 4 5 6 7 8 9 10 11 12 13
+2 0 1 3 4 5 6 7 8 9 10 11 12 13
+3 0 1 2 4 5 6 7 8 9 10 11 12 13
+4 0 1 2 3 5 6 7 8 9 10 11 12 13
+5 0 1 2 3 4 6 7 8 9 10 11 12 13
+6 0 1 2 3 4 5 7 8 9 10 11 12 13
+7 0 1 2 3 4 5 6 8 9 10 11 12 13
+8 0 1 2 3 4 5 6 7 9 10 11 12 13
+9 0 1 2 3 4 5 6 7 8 10 11 12 13
+10 0 1 2 3 4 5 6 7 8 9 11 12 13
+11 0 1 2 3 4 5 6 7 8 9 10 12 13
+12 0 1 2 3 4 5 6 7 8 9 10 11 13
+13 0 1 2 3 4 5 6 7 8 9 10 11 12
+#Dependency Lists(Users Of)
+0 1 2 3 4 5 6 7 8 9 10 11 12 13
+1 0 2 3 4 5 6 7 8 9 10 11 12 13
+2 0 1 3 4 5 6 7 8 9 10 11 12 13
+3 0 1 2 4 5 6 7 8 9 10 11 12 13
+4 0 1 2 3 5 6 7 8 9 10 11 12 13
+5 0 1 2 3 4 6 7 8 9 10 11 12 13
+6 0 1 2 3 4 5 7 8 9 10 11 12 13
+7 0 1 2 3 4 5 6 8 9 10 11 12 13
+8 0 1 2 3 4 5 6 7 9 10 11 12 13
+9 0 1 2 3 4 5 6 7 8 10 11 12 13
+10 0 1 2 3 4 5 6 7 8 9 11 12 13
+11 0 1 2 3 4 5 6 7 8 9 10 12 13
+12 0 1 2 3 4 5 6 7 8 9 10 11 13
+13 0 1 2 3 4 5 6 7 8 9 10 11 12
+#Design Unit to File Association
+module work tristatebuff_8bit 2
+module work tristatebuff_4bit 3
+module work opcode_decoder 5
+module work state_counter 7
+module work control_sequencer 4
+module work program_counter 6
+module work demux 8
+module work dFlipflop 13
+module work reg_4bit 9
+module work reg_8bit 10
+module work alu 11
+module work rom 12
+module work main 1
+module work test 0

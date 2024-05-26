@@ -1,0 +1,8 @@
+@W: CG360 :"C:\Users\CND\Desktop\new_sap\control_unit.v":25:9:25:16|Removing wire CLR_Flag, as there is no assignment to it.
+@W: CG532 :"C:\Users\CND\Desktop\new_sap\test.v":14:0:14:6|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@W: CG294 :"C:\Users\CND\Desktop\new_sap\test.v":19:4:19:9|always block should contain at least one event control
+@W: CG532 :"C:\Users\CND\Desktop\new_sap\test.v":25:0:25:6|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@W: CG133 :"C:\Users\CND\Desktop\new_sap\test.v":12:9:12:11|Object clr is declared but not assigned. Either assign a value or remove the declaration.
+@W: FX105 :"C:\Users\CND\Desktop\new_sap\test.v":21:19:21:23|Found combinational loop at clk1
+@W: CL249 :"C:\Users\CND\Desktop\new_sap\t_state_counter.v":6:4:6:9|Initial value is not supported on state machine T
+

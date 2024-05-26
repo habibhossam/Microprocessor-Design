@@ -1,0 +1,836 @@
+#### START OF AREA REPORT #####[
+
+Part:			ICE40HX1KTQ144 (Lattice)
+
+--------------------------------------------------------------------
+########   Utilization report for  Top level view:   main   ########
+====================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     62                 100 %                
+==================================================
+Total SEQUENTIAL ELEMENTS in the block main:	62 (17.37 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       166                100 %                
+CARRYS     7                  100 %                
+===================================================
+Total COMBINATIONAL LOGIC in the block main:	173 (48.46 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     11                 100 %                
+=================================================
+Total IO PADS in the block main:	11 (3.08 % Utilization)
+
+---------------------------------------------------------
+########   Utilization report for  cell:   alu   ########
+Instance path:   main.alu                                
+=========================================================
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       28                 16.9 %               
+CARRYS     7                  100 %                
+===================================================
+Total COMBINATIONAL LOGIC in the block main.alu:	35 (9.80 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   control_sequencer   ########
+Instance path:   main.control_sequencer                                
+=======================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     9                  14.5 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block main.control_sequencer:	9 (2.52 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     49                 29.5 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block main.control_sequencer:	49 (13.73 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   opcode_decoder   ########
+Instance path:   control_sequencer.opcode_decoder                   
+====================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     8                  4.82 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block control_sequencer.opcode_decoder:	8 (2.24 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   state_counter   ########
+Instance path:   control_sequencer.state_counter                   
+===================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     7                  11.3 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block control_sequencer.state_counter:	7 (1.96 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     29                 17.5 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block control_sequencer.state_counter:	29 (8.12 % Utilization)
+
+---------------------------------------------------------------------
+########   Utilization report for  cell:   program_counter   ########
+Instance path:   main.program_counter                                
+=====================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     4                  6.45 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block main.program_counter:	4 (1.12 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     55                 33.1 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block main.program_counter:	55 (15.41 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   tristatebuff_4bit   ########
+Instance path:   program_counter.tristatebuff_4bit                     
+=======================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     17                 10.2 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block program_counter.tristatebuff_4bit:	17 (4.76 % Utilization)
+
+--------------------------------------------------------------
+########   Utilization report for  cell:   reg_4bit   ########
+Instance path:   main.reg_4bit                                
+==============================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     4                  6.45 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block main.reg_4bit:	4 (1.12 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     1                  0.6020 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block main.reg_4bit:	1 (0.28 % Utilization)
+
+---------------------------------------------------------------
+########   Utilization report for  cell:   dFlipflop   ########
+Instance path:   reg_4bit.dFlipflop                            
+===============================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     1                  1.61 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block reg_4bit.dFlipflop:	1 (0.28 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     1                  0.6020 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block reg_4bit.dFlipflop:	1 (0.28 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   dFlipflop_0   ########
+Instance path:   reg_4bit.dFlipflop_0                            
+=================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     1                  1.61 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block reg_4bit.dFlipflop_0:	1 (0.28 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   dFlipflop_1   ########
+Instance path:   reg_4bit.dFlipflop_1                            
+=================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     1                  1.61 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block reg_4bit.dFlipflop_1:	1 (0.28 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   dFlipflop_2   ########
+Instance path:   reg_4bit.dFlipflop_2                            
+=================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     1                  1.61 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block reg_4bit.dFlipflop_2:	1 (0.28 % Utilization)
+
+----------------------------------------------------------------
+########   Utilization report for  cell:   reg_4bit_0   ########
+Instance path:   main.reg_4bit_0                                
+================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     4                  6.45 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block main.reg_4bit_0:	4 (1.12 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     6                  3.61 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block main.reg_4bit_0:	6 (1.68 % Utilization)
+
+------------------------------------------------------------------
+########   Utilization report for  cell:   dFlipflop_35   ########
+Instance path:   reg_4bit_0.dFlipflop_35                          
+==================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     1                  1.61 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block reg_4bit_0.dFlipflop_35:	1 (0.28 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     1                  0.6020 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block reg_4bit_0.dFlipflop_35:	1 (0.28 % Utilization)
+
+------------------------------------------------------------------
+########   Utilization report for  cell:   dFlipflop_36   ########
+Instance path:   reg_4bit_0.dFlipflop_36                          
+==================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     1                  1.61 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block reg_4bit_0.dFlipflop_36:	1 (0.28 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     1                  0.6020 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block reg_4bit_0.dFlipflop_36:	1 (0.28 % Utilization)
+
+------------------------------------------------------------------
+########   Utilization report for  cell:   dFlipflop_37   ########
+Instance path:   reg_4bit_0.dFlipflop_37                          
+==================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     1                  1.61 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block reg_4bit_0.dFlipflop_37:	1 (0.28 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     1                  0.6020 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block reg_4bit_0.dFlipflop_37:	1 (0.28 % Utilization)
+
+------------------------------------------------------------------
+########   Utilization report for  cell:   dFlipflop_38   ########
+Instance path:   reg_4bit_0.dFlipflop_38                          
+==================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     1                  1.61 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block reg_4bit_0.dFlipflop_38:	1 (0.28 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     3                  1.81 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block reg_4bit_0.dFlipflop_38:	3 (0.84 % Utilization)
+
+--------------------------------------------------------------
+########   Utilization report for  cell:   reg_8bit   ########
+Instance path:   main.reg_8bit                                
+==============================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     17                 27.4 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block main.reg_8bit:	17 (4.76 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     7                  4.22 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block main.reg_8bit:	7 (1.96 % Utilization)
+
+------------------------------------------------------------------
+########   Utilization report for  cell:   dFlipflop_10   ########
+Instance path:   reg_8bit.dFlipflop_10                            
+==================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     3                  4.84 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block reg_8bit.dFlipflop_10:	3 (0.84 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     1                  0.6020 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block reg_8bit.dFlipflop_10:	1 (0.28 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   dFlipflop_3   ########
+Instance path:   reg_8bit.dFlipflop_3                            
+=================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     1                  1.61 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block reg_8bit.dFlipflop_3:	1 (0.28 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   dFlipflop_4   ########
+Instance path:   reg_8bit.dFlipflop_4                            
+=================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     1                  1.61 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block reg_8bit.dFlipflop_4:	1 (0.28 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   dFlipflop_5   ########
+Instance path:   reg_8bit.dFlipflop_5                            
+=================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     1                  1.61 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block reg_8bit.dFlipflop_5:	1 (0.28 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   dFlipflop_6   ########
+Instance path:   reg_8bit.dFlipflop_6                            
+=================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     1                  1.61 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block reg_8bit.dFlipflop_6:	1 (0.28 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   dFlipflop_7   ########
+Instance path:   reg_8bit.dFlipflop_7                            
+=================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     3                  4.84 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block reg_8bit.dFlipflop_7:	3 (0.84 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     1                  0.6020 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block reg_8bit.dFlipflop_7:	1 (0.28 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   dFlipflop_8   ########
+Instance path:   reg_8bit.dFlipflop_8                            
+=================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     3                  4.84 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block reg_8bit.dFlipflop_8:	3 (0.84 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     2                  1.2 %                
+=================================================
+Total COMBINATIONAL LOGIC in the block reg_8bit.dFlipflop_8:	2 (0.56 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   dFlipflop_9   ########
+Instance path:   reg_8bit.dFlipflop_9                            
+=================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     4                  6.45 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block reg_8bit.dFlipflop_9:	4 (1.12 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     3                  1.81 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block reg_8bit.dFlipflop_9:	3 (0.84 % Utilization)
+
+----------------------------------------------------------------
+########   Utilization report for  cell:   reg_8bit_0   ########
+Instance path:   main.reg_8bit_0                                
+================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     8                  12.9 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block main.reg_8bit_0:	8 (2.24 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     3                  1.81 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block main.reg_8bit_0:	3 (0.84 % Utilization)
+
+------------------------------------------------------------------
+########   Utilization report for  cell:   dFlipflop_11   ########
+Instance path:   reg_8bit_0.dFlipflop_11                          
+==================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     1                  1.61 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block reg_8bit_0.dFlipflop_11:	1 (0.28 % Utilization)
+
+------------------------------------------------------------------
+########   Utilization report for  cell:   dFlipflop_12   ########
+Instance path:   reg_8bit_0.dFlipflop_12                          
+==================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     1                  1.61 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block reg_8bit_0.dFlipflop_12:	1 (0.28 % Utilization)
+
+------------------------------------------------------------------
+########   Utilization report for  cell:   dFlipflop_13   ########
+Instance path:   reg_8bit_0.dFlipflop_13                          
+==================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     1                  1.61 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block reg_8bit_0.dFlipflop_13:	1 (0.28 % Utilization)
+
+------------------------------------------------------------------
+########   Utilization report for  cell:   dFlipflop_14   ########
+Instance path:   reg_8bit_0.dFlipflop_14                          
+==================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     1                  1.61 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block reg_8bit_0.dFlipflop_14:	1 (0.28 % Utilization)
+
+------------------------------------------------------------------
+########   Utilization report for  cell:   dFlipflop_15   ########
+Instance path:   reg_8bit_0.dFlipflop_15                          
+==================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     1                  1.61 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block reg_8bit_0.dFlipflop_15:	1 (0.28 % Utilization)
+
+------------------------------------------------------------------
+########   Utilization report for  cell:   dFlipflop_16   ########
+Instance path:   reg_8bit_0.dFlipflop_16                          
+==================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     1                  1.61 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block reg_8bit_0.dFlipflop_16:	1 (0.28 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     1                  0.6020 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block reg_8bit_0.dFlipflop_16:	1 (0.28 % Utilization)
+
+------------------------------------------------------------------
+########   Utilization report for  cell:   dFlipflop_17   ########
+Instance path:   reg_8bit_0.dFlipflop_17                          
+==================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     1                  1.61 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block reg_8bit_0.dFlipflop_17:	1 (0.28 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     1                  0.6020 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block reg_8bit_0.dFlipflop_17:	1 (0.28 % Utilization)
+
+------------------------------------------------------------------
+########   Utilization report for  cell:   dFlipflop_18   ########
+Instance path:   reg_8bit_0.dFlipflop_18                          
+==================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     1                  1.61 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block reg_8bit_0.dFlipflop_18:	1 (0.28 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     1                  0.6020 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block reg_8bit_0.dFlipflop_18:	1 (0.28 % Utilization)
+
+----------------------------------------------------------------
+########   Utilization report for  cell:   reg_8bit_1   ########
+Instance path:   main.reg_8bit_1                                
+================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     8                  12.9 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block main.reg_8bit_1:	8 (2.24 % Utilization)
+
+------------------------------------------------------------------
+########   Utilization report for  cell:   dFlipflop_19   ########
+Instance path:   reg_8bit_1.dFlipflop_19                          
+==================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     1                  1.61 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block reg_8bit_1.dFlipflop_19:	1 (0.28 % Utilization)
+
+------------------------------------------------------------------
+########   Utilization report for  cell:   dFlipflop_20   ########
+Instance path:   reg_8bit_1.dFlipflop_20                          
+==================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     1                  1.61 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block reg_8bit_1.dFlipflop_20:	1 (0.28 % Utilization)
+
+------------------------------------------------------------------
+########   Utilization report for  cell:   dFlipflop_21   ########
+Instance path:   reg_8bit_1.dFlipflop_21                          
+==================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     1                  1.61 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block reg_8bit_1.dFlipflop_21:	1 (0.28 % Utilization)
+
+------------------------------------------------------------------
+########   Utilization report for  cell:   dFlipflop_22   ########
+Instance path:   reg_8bit_1.dFlipflop_22                          
+==================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     1                  1.61 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block reg_8bit_1.dFlipflop_22:	1 (0.28 % Utilization)
+
+------------------------------------------------------------------
+########   Utilization report for  cell:   dFlipflop_23   ########
+Instance path:   reg_8bit_1.dFlipflop_23                          
+==================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     1                  1.61 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block reg_8bit_1.dFlipflop_23:	1 (0.28 % Utilization)
+
+------------------------------------------------------------------
+########   Utilization report for  cell:   dFlipflop_24   ########
+Instance path:   reg_8bit_1.dFlipflop_24                          
+==================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     1                  1.61 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block reg_8bit_1.dFlipflop_24:	1 (0.28 % Utilization)
+
+------------------------------------------------------------------
+########   Utilization report for  cell:   dFlipflop_25   ########
+Instance path:   reg_8bit_1.dFlipflop_25                          
+==================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     1                  1.61 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block reg_8bit_1.dFlipflop_25:	1 (0.28 % Utilization)
+
+------------------------------------------------------------------
+########   Utilization report for  cell:   dFlipflop_26   ########
+Instance path:   reg_8bit_1.dFlipflop_26                          
+==================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     1                  1.61 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block reg_8bit_1.dFlipflop_26:	1 (0.28 % Utilization)
+
+----------------------------------------------------------------
+########   Utilization report for  cell:   reg_8bit_2   ########
+Instance path:   main.reg_8bit_2                                
+================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     8                  12.9 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block main.reg_8bit_2:	8 (2.24 % Utilization)
+
+------------------------------------------------------------------
+########   Utilization report for  cell:   dFlipflop_27   ########
+Instance path:   reg_8bit_2.dFlipflop_27                          
+==================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     1                  1.61 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block reg_8bit_2.dFlipflop_27:	1 (0.28 % Utilization)
+
+------------------------------------------------------------------
+########   Utilization report for  cell:   dFlipflop_28   ########
+Instance path:   reg_8bit_2.dFlipflop_28                          
+==================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     1                  1.61 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block reg_8bit_2.dFlipflop_28:	1 (0.28 % Utilization)
+
+------------------------------------------------------------------
+########   Utilization report for  cell:   dFlipflop_29   ########
+Instance path:   reg_8bit_2.dFlipflop_29                          
+==================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     1                  1.61 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block reg_8bit_2.dFlipflop_29:	1 (0.28 % Utilization)
+
+------------------------------------------------------------------
+########   Utilization report for  cell:   dFlipflop_30   ########
+Instance path:   reg_8bit_2.dFlipflop_30                          
+==================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     1                  1.61 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block reg_8bit_2.dFlipflop_30:	1 (0.28 % Utilization)
+
+------------------------------------------------------------------
+########   Utilization report for  cell:   dFlipflop_31   ########
+Instance path:   reg_8bit_2.dFlipflop_31                          
+==================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     1                  1.61 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block reg_8bit_2.dFlipflop_31:	1 (0.28 % Utilization)
+
+------------------------------------------------------------------
+########   Utilization report for  cell:   dFlipflop_32   ########
+Instance path:   reg_8bit_2.dFlipflop_32                          
+==================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     1                  1.61 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block reg_8bit_2.dFlipflop_32:	1 (0.28 % Utilization)
+
+------------------------------------------------------------------
+########   Utilization report for  cell:   dFlipflop_33   ########
+Instance path:   reg_8bit_2.dFlipflop_33                          
+==================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     1                  1.61 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block reg_8bit_2.dFlipflop_33:	1 (0.28 % Utilization)
+
+------------------------------------------------------------------
+########   Utilization report for  cell:   dFlipflop_34   ########
+Instance path:   reg_8bit_2.dFlipflop_34                          
+==================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     1                  1.61 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block reg_8bit_2.dFlipflop_34:	1 (0.28 % Utilization)
+
+---------------------------------------------------------
+########   Utilization report for  cell:   rom   ########
+Instance path:   main.rom                                
+=========================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     12                 7.23 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block main.rom:	12 (3.36 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   tristatebuff_8bit   ########
+Instance path:   main.tristatebuff_8bit                                
+=======================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     4                  2.41 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block main.tristatebuff_8bit:	4 (1.12 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

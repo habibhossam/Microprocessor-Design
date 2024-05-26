@@ -1,0 +1,11 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: BN115 :"c:\users\cnd\desktop\new_sap\register_8bit.v":9:14:9:16|Removing instance ff2 (in view: work.reg_8bit_0(verilog)) of type view:work.dFlipflop_11_23(verilog) because it does not drive other instances.
+@N: BN115 :"c:\users\cnd\desktop\new_sap\register_8bit.v":13:14:13:16|Removing instance ff6 (in view: work.reg_8bit_0(verilog)) of type view:work.dFlipflop_11_19(verilog) because it does not drive other instances.
+@N: BN115 :"c:\users\cnd\desktop\new_sap\register_8bit.v":14:14:14:16|Removing instance ff7 (in view: work.reg_8bit_0(verilog)) of type view:work.dFlipflop_11_18(verilog) because it does not drive other instances.
+@N: BN115 :"c:\users\cnd\desktop\new_sap\register_8bit.v":15:14:15:16|Removing instance ff8 (in view: work.reg_8bit_0(verilog)) of type view:work.dFlipflop_11_17(verilog) because it does not drive other instances.
+@N: BN362 :"c:\users\cnd\desktop\new_sap\dflipflop.v":14:4:14:9|Removing sequential instance q (in view: work.dFlipflop_11_23(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\cnd\desktop\new_sap\dflipflop.v":14:4:14:9|Removing sequential instance q (in view: work.dFlipflop_11_19(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\cnd\desktop\new_sap\dflipflop.v":14:4:14:9|Removing sequential instance q (in view: work.dFlipflop_11_18(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\cnd\desktop\new_sap\dflipflop.v":14:4:14:9|Removing sequential instance q (in view: work.dFlipflop_11_17(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN225 |Writing default property annotation file C:\Users\CND\Desktop\new_sap\new_sap\new_sap_Implmnt\new_sap.sap.

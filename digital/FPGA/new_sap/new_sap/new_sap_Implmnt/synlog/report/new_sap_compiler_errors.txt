@@ -1,0 +1,2 @@
+@E: CG301 :"C:\Users\CND\Desktop\new_sap\t_state_counter.v":6:13:6:31|Can't mix posedge/negedge use with plain signal references
+
